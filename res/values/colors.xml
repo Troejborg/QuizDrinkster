@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2011 The Android Open Source Project
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <color name="pressed_quizdrinkster">#CC669900</color>
+    <color name="divider_light_gray">#C0C0C0</color>
+    <color name="good_result_green">#37c855</color>
+    <color name="bad_result_red">#b01717</color>
+    <color name="compared_to_usage_color">#896161</color>
+    <color name="this_usage_color">#88954d</color>
+
+    <color name="background_green_dark">#274D2A</color>
+    <color name="background_green_medium">#3C6E40</color>
+    <color name="background_green_light">#769178</color>
+
+    <color name="white_opaque">#FFFFFF</color>
+    <color name="white_transparent">#66FFFFFF</color>
+
+    <color name="red_transparent">#BA0000</color>
+    <color name="green_transparent">#00BF06</color>
+
+</resources>

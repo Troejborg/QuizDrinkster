@@ -1,10 +1,11 @@
-package com.liteapps.quizdrinkster;
+package views;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import com.liteapps.quizdrinkster.R;
 
 /**
  * Custom view implemented to indicate the user progress in the first use scenario.
@@ -38,8 +39,6 @@ public class ProgressIndicatorView extends LinearLayout
         for (int i = 0; i < AMOUNT_OF_SQUARES; i++)
         {
             ImageView loadingPiece = new ImageView(context);
-            //loadingPiece.setBackgroundColor(transparentWhite);
-            //			loadingPiece.setBackgroundDrawable(transitionColor);
             loadingPiece.setImageDrawable(transitionColor);
             LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(0,
                     LinearLayout.LayoutParams.MATCH_PARENT, 1.0f);
@@ -55,9 +54,5 @@ public class ProgressIndicatorView extends LinearLayout
     public void setProgressIndicator(int activeStep)
     {
         this.getChildAt(activeStep-1).setBackgroundColor(opaqueWhite);
-        // Fade IN
-        //		ImageView tempView = (ImageView) this.getChildAt(activeStep-1);
-        //		TransitionDrawable transition = (TransitionDrawable)tempView.getDrawable();
-        //		transition.startTransition(transitionTime);
     }
 }
